@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="239044" started-at="2020-04-12T13:29:46Z" finished-at="2020-04-12T13:33:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="239044" started-at="2020-04-12T13:29:46Z" finished-at="2020-04-12T13:33:45Z">
+      <class name="com.hubspot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="15473" started-at="2020-04-12T09:29:46Z" finished-at="2020-04-12T09:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPage()[pri:1, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="verifyContactsPage" duration-ms="773" started-at="2020-04-12T09:30:02Z" finished-at="2020-04-12T09:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="156" started-at="2020-04-12T09:30:02Z" finished-at="2020-04-12T09:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="14038" started-at="2020-04-12T09:30:04Z" finished-at="2020-04-12T09:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="16043" started-at="2020-04-12T09:30:18Z" data-provider="getContactData" finished-at="2020-04-12T09:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahmet@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="166" started-at="2020-04-12T09:30:34Z" finished-at="2020-04-12T09:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="12961" started-at="2020-04-12T09:30:34Z" finished-at="2020-04-12T09:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="16249" started-at="2020-04-12T09:30:47Z" data-provider="getContactData" finished-at="2020-04-12T09:31:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bilal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bilal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="161" started-at="2020-04-12T09:31:03Z" finished-at="2020-04-12T09:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="14386" started-at="2020-04-12T09:31:04Z" finished-at="2020-04-12T09:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="15916" started-at="2020-04-12T09:31:18Z" data-provider="getContactData" finished-at="2020-04-12T09:31:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hatice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hatice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="161" started-at="2020-04-12T09:31:34Z" finished-at="2020-04-12T09:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="13160" started-at="2020-04-12T09:31:34Z" finished-at="2020-04-12T09:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="15536" started-at="2020-04-12T09:31:47Z" data-provider="getContactData" finished-at="2020-04-12T09:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[metin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Metin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CEO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="108" started-at="2020-04-12T09:32:03Z" finished-at="2020-04-12T09:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="11522" started-at="2020-04-12T09:32:03Z" finished-at="2020-04-12T09:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="14127" started-at="2020-04-12T09:32:14Z" data-provider="getContactData" finished-at="2020-04-12T09:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recep@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Recep]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="109" started-at="2020-04-12T09:32:29Z" finished-at="2020-04-12T09:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="11778" started-at="2020-04-12T09:32:29Z" finished-at="2020-04-12T09:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="14346" started-at="2020-04-12T09:32:40Z" data-provider="getContactData" finished-at="2020-04-12T09:32:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[necati@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Necati]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Developer Assist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="105" started-at="2020-04-12T09:32:55Z" finished-at="2020-04-12T09:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="10742" started-at="2020-04-12T09:32:55Z" finished-at="2020-04-12T09:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="14457" started-at="2020-04-12T09:33:06Z" data-provider="getContactData" finished-at="2020-04-12T09:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ayse@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ayse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="107" started-at="2020-04-12T09:33:20Z" finished-at="2020-04-12T09:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="setUp" is-config="true" duration-ms="10586" started-at="2020-04-12T09:33:20Z" finished-at="2020-04-12T09:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewPOMContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="createNewPOMContactTest" duration-ms="14321" started-at="2020-04-12T09:33:31Z" data-provider="getContactData" finished-at="2020-04-12T09:33:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emine@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DevOp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPOMContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@46f699d5]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-04-12T09:33:45Z" finished-at="2020-04-12T09:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
