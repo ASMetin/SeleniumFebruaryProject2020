@@ -21,16 +21,16 @@ public class LoginPageTest {
 	//Logger logger = Logger.getLogger("LoginPageTest");	
 	WebDriver driver;
 	Properties prop;
-	BasePage basePage; // we are calling as object instead of extends basepage
-	LoginPage loginPage; // because all methods in LoginPage
-								//siniflar arasinda gecis saglamak icin onceki tum classlari object olarak cagiririz.	
+	BasePage basePage; 
+	LoginPage loginPage; 
+									
 	@BeforeMethod	
 	public void setUp(){
 		basePage = new BasePage();
 		//logger.info("Browser is launching...");
 		prop = basePage.initialize_propertise();
-		driver = basePage.initialize_driver(prop);// Testi baslatmak icin mecburen webdriver cagirmamiz gerekiyor.
-		loginPage = new LoginPage(driver);//loginPage de ki constructor'a ulasmak icin boylelikle oradaki tum ozelliklere ulasmis olacagim.
+		driver = basePage.initialize_driver(prop);
+		loginPage = new LoginPage(driver);
 	}	
 	@Test(priority=2, enabled = true, description = "Login test using correct username and password ")
 	public void loginTest1(){
@@ -48,7 +48,7 @@ public class LoginPageTest {
 	}		
 	@Test(priority=1, enabled = true, description = "Hubspot Login get title")
 	public void getTitle(){
-		String title = loginPage.getLoginPageTitle();//getLoginPageTitle string oldugundan string title da store ederiz.
+		String title = loginPage.getLoginPageTitle();
 		System.out.println(title);
 		Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE, "title is incorrect");		
 	}	
