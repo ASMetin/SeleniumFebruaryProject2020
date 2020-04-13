@@ -48,10 +48,10 @@ public class BasePage {
 		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		// Eger TimeOutException hatasi veriyorsa Url hatasi vardir, url dogruysa sayfaya yada code lara bakilmali
+		
 		driver.get(prop.getProperty("url"));
 		
-		try {  // bir frameworkte NoSuchElementException veriyorsa wait ile ilgilidir.
+		try {  
 			Thread.sleep(5000);
 		} catch (Exception e) {
 			
