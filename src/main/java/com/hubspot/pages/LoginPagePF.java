@@ -15,8 +15,7 @@ public class LoginPagePF extends BasePage {
 	
 	WebDriver driver;
 	ElementUtilPF elementUtilPF;
-	//Biz frameworklerimiz de non-page factory kullaniyoruz.
-	//arada ki fark locatorlari tanimlamak icin birinde By, page factory de is FindBy kullaniriz
+	
 	
 	//page Factory
 	
