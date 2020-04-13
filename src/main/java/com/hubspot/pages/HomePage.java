@@ -32,7 +32,7 @@ public class HomePage extends BasePage{
 		 return elementUtil.doGetText(accountName); 
 		// return driver.findElement(accountName).getText();
 	 }
-		//helper method //datalari private method icinde store eder, public'le cagiririz.
+		
 	 private void clickOnContacts() throws InterruptedException{
 		elementUtil.doClick(contactMainTab);
 		Thread.sleep(2000);
