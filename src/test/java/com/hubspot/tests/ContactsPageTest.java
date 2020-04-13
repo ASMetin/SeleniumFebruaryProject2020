@@ -39,9 +39,9 @@ public class ContactsPageTest {
 		System.out.println("contact page title is "+ title);
 		Assert.assertEquals(title, Constants.CONTACTS_PAGE_TITLE);
 	}
-	@DataProvider() // Bu method bizim datalarla connect olmamizi saglar
+	@DataProvider() 
 	public Object[][] getContactData(){
-		Object data[][] = ExcelUtil.getTestData("contact");// contact is excel sheet name
+		Object data[][] = ExcelUtil.getTestData("contact");
 		return data;
 	}
 	@Test(priority=2, dataProvider="getContactData")
