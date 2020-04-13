@@ -10,7 +10,7 @@ import com.hubspot.util.ElementUtil;
 public class LoginPage extends BasePage{
 	WebDriver driver;
 	ElementUtil elementUtil;
-	//non-page factory  ---we use "By" ---we use in page factory "findBy"  
+	//non-page factory   
 	//locators
 	By emailId = By.id("username");
 	By password = By.id("password");
@@ -26,7 +26,7 @@ public class LoginPage extends BasePage{
 		return elementUtil.waitForGetPageTitle(Constants.LOGIN_PAGE_TITLE);
 		//return driver.getTitle();
 	}
-	public HomePage doLogin(String username, String pwd){ //I am doing everything in this method
+	public HomePage doLogin(String username, String pwd){ 
 		elementUtil.doSendKeys(emailId, username);
 		elementUtil.doSendKeys(password, pwd);
 		elementUtil.doClick(loginBtn);
